@@ -2,7 +2,7 @@ import sys
 import struct
 import serial
 
-path = '/home/pi/python_test/test.txt'
+path = '/home/pi/python_test/RasPiUART/test.txt'
 
 with open(path, 'rb') as f:
     s = f.read()
